@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ulimit -n 4096
+
+alias dev1="/home/vagrant/riak-1.3.1/dev/dev1/bin/riak"
+alias dev2="/home/vagrant/riak-1.3.1/dev/dev2/bin/riak"
+alias dev3="/home/vagrant/riak-1.3.1/dev/dev3/bin/riak"
+
+alias dev1-admin="/home/vagrant/riak-1.3.1/dev/dev1/bin/riak-admin"
+alias dev2-admin="/home/vagrant/riak-1.3.1/dev/dev2/bin/riak-admin"
+alias dev3-admin="/home/vagrant/riak-1.3.1/dev/dev3/bin/riak-admin"
+
+alias start-riak="/home/vagrant/riak-1.3.1/dev/start-riak.sh"
+alias stop-riak="/home/vagrant/riak-1.3.1/dev/stop-riak.sh"

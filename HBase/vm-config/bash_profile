@@ -1,0 +1,5 @@
+#!/bin/bash
+
+alias hbase=/home/vagrant/hbase-0.94.6.1/bin/hbase
+alias start-hbase="sudo /home/vagrant/hbase-0.94.6.1/bin/start-hbase.sh"
+alias stop-hbase="sudo /home/vagrant/hbase-0.94.6.1/bin/stop-hbase.sh"
