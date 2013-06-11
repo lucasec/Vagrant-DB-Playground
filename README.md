@@ -1,5 +1,5 @@
-Database Playground (uses Vagrant)
-=====================
+# Database Playground
+*Explore various databases in Vagrant VMs*
 
 Contains Vagrantfiles and provision shell scripts to set up development environments for various databases.
 
@@ -10,4 +10,5 @@ Supported Databases:
 - Riak (REST api)
 - HBase (HBase shell)
 - MongoDB (MongoDB shell)
-- CouchDB (REST api)
+- CouchDB (REST api, Futon)
+- Neo4j (REST api, webadmin)
